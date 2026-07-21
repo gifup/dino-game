@@ -85,28 +85,36 @@ body{
 
 .play-button{
 
-    display:inline-block;
+    display:inline-flex;
+    align-items:center;
+    gap:12px;
 
-    background:#000;
+    background:#111;
 
     color:white;
 
     text-decoration:none;
 
-    padding:18px 40px;
+    padding:18px 34px;
 
-    border-radius:50px;
+    border-radius:999px;
 
-    font-size:20px;
+    font-weight:700;
 
     transition:.3s;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
 }
 
 .play-button:hover{
 
-    transform:translateY(-3px);
+    transform:translateY(-4px);
 
-    background:#444;
+    box-shadow:0 18px 40px rgba(0,0,0,.22);
+
+    background:#000;
+
 }
 .hero-grid{
     display:grid;
