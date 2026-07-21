@@ -6,7 +6,11 @@
 
 body{
     font-family: 'Inter', sans-serif;
-    background:#ffffff;
+    background:linear-gradient(
+180deg,
+#ffffff 0%,
+#fafafa 100%
+);
     color:#222;
 }
 
